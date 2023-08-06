@@ -12,6 +12,7 @@ opt.showmode = false
 
 opt.clipboard = "unnamedplus"
 opt.cursorline = true
+vim.o.guicursor = "a:blinkon100,i:ver25"
 
 -- Indenting
 opt.expandtab = true

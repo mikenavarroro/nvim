@@ -64,4 +64,69 @@ lspconfig.lua_ls.setup {
   },
 }
 
+lspconfig.pyright.setup {
+  on_attach = M.on_attach,
+  flags = {
+    debounce_text_changes = 150,
+  },
+  capabilities = M.capabilities,
+}
+
+lspconfig.clangd.setup {
+  on_attach = M.on_attach,
+  flags = {
+    debounce_text_changes = 150,
+  },
+  capabilities = M.capabilities,
+}
+
+lspconfig.cssls.setup {
+  on_attach = M.on_attach,
+  flags = {
+    debounce_text_changes = 150,
+  },
+  capabilities = M.capabilities,
+}
+
+lspconfig.html.setup {
+  on_attach = M.on_attach,
+  flags = {
+    debounce_text_changes = 150,
+  },
+  capabilities = M.capabilities,
+}
+
+lspconfig.docker_compose_language_service.setup {
+  on_attach = M.on_attach,
+  flags = {
+    debounce_text_changes = 150,
+  },
+  capabilities = M.capabilities,
+}
+
+lspconfig.dockerls.setup {
+  on_attach = M.on_attach,
+  flags = {
+    debounce_text_changes = 150,
+  },
+  capabilities = M.capabilities,
+}
+
+lspconfig.emmet_ls.setup {
+  on_attach = M.on_attach,
+  flags = {
+    debounce_text_changes = 150,
+  },
+  capabilities = M.capabilities,
+}
+
+lspconfig.sqlls.setup {
+  on_attach = M.on_attach,
+  flags = {
+    debounce_text_changes = 150,
+  },
+  capabilities = M.capabilities,
+  single_file_support = true,
+}
+
 return M
